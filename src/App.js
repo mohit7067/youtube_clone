@@ -1,7 +1,31 @@
-import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+import { Box } from "@mui/material";
+
+import {
+  Navbar,
+  SearchFeed,
+  ChannelDetail,
+  Feed,
+  VideoDetail,
+} from "./components";
 
 function App() {
-  return <div className="App">Hello</div>;
+  return (
+    <div className="App">
+      <BrowserRouter>
+        <Box sx={{ backgroundColor: "#000" }}>
+          <Navbar />
+          <Routes>
+            <Route path="/" exact element={<Feed />} />
+            <Route path="/video/:id" element={<VideoDetail />} />
+            <Route path="/channel/:id" element={<ChannelDetail />} />
+            <Route path="/serach/:searchTerm" element={<SearchFeed />} />
+          </Routes>
+        </Box>
+      </BrowserRouter>
+    </div>
+  );
 }
 
 export default App;
