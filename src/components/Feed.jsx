@@ -45,7 +45,23 @@ const Feed = () => {
           {selectedCategory} <span style={{ color: "#f31503" }}>videos</span>
         </Typography>
 
-        <Videos videos={videos} />
+        <Videos
+          videos={videos}
+          width={{
+            xs: "100%",
+            sm: "100%",
+            md: "85%",
+            lg: "85%",
+            xl: "90%",
+          }}
+          gridTemplateColumns={{
+            xs: "repeat(1,1fr)",
+            sm: "repeat(2,1fr)",
+            md: "repeat(2,1fr)",
+            lg: "repeat(3,1fr)",
+            xl: "repeat(6,1fr)",
+          }}
+        />
       </Box>
     </Stack>
   );

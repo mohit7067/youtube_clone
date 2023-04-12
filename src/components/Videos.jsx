@@ -3,20 +3,15 @@ import React from "react";
 import { Stack, Box } from "@mui/material";
 import { ChannelCard, VideoCard } from "./";
 
-const Videos = ({ videos }) => {
+const Videos = ({ videos, margin, width, gridTemplateColumns }) => {
   return (
     <Stack
       sx={{
-        width: { xs: "100%", sm: "100%", md: "88%", lg: "88%", xl: "90%" },
+        width,
         display: "grid",
-        gridTemplateColumns: {
-          xs: "repeat(1,1fr)",
-          sm: "repeat(2,1fr)",
-          md: "repeat(2,1fr)",
-          lg: "repeat(3,1fr)",
-          xl: "repeat(6,1fr)",
-        },
+        gridTemplateColumns,
         gap: "20px",
+        margin,
       }}
     >
       {videos.map((item, index) => (
