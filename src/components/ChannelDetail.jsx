@@ -35,8 +35,7 @@ const ChannelDetail = () => {
         />
         <ChannelCard channelDetail={channelDetail} marginTop="-110px" />
       </Box>
-      <Box display={"flex"} p="2">
-        <Box sx={{ mr: { sm: "100px" } }} />
+      <Box display={"flex"} p={2}>
         <Videos videos={videos} margin="auto" />
       </Box>
     </Box>
