@@ -36,25 +36,8 @@ const ChannelDetail = () => {
         <ChannelCard channelDetail={channelDetail} marginTop="-110px" />
       </Box>
       <Box display={"flex"} p="2">
-        {/* <Box sx={{ mr: { sm: "100px" } }} /> */}
-        <Videos
-          videos={videos}
-          margin="auto"
-          width={{
-            xs: "96%",
-            sm: "96%",
-            md: "98%",
-            lg: "98%",
-            xl: "98%",
-          }}
-          gridTemplateColumns={{
-            xs: "repeat(1,1fr)",
-            sm: "repeat(2,1fr)",
-            md: "repeat(3,1fr)",
-            lg: "repeat(4,1fr)",
-            xl: "repeat(7,1fr)",
-          }}
-        />
+        <Box sx={{ mr: { sm: "100px" } }} />
+        <Videos videos={videos} margin="auto" />
       </Box>
     </Box>
   );
