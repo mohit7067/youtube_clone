@@ -21,7 +21,6 @@ const VideoDetail = () => {
     );
   }, [id]);
 
-  console.log(videos);
   if (!videoDetail?.snippet) return "Loading...";
 
   const {
@@ -29,10 +28,17 @@ const VideoDetail = () => {
     statistics: { viewCount, likeCount },
   } = videoDetail;
   return (
-    <Box minHeight="95vh">
+    <Box minHeight="100vh">
       <Stack direction={{ xs: "column", md: "row" }}>
         <Box flex={1}>
-          <Box sx={{ width: "100%", position: "sticky", top: "86px" }}>
+          <Box
+            sx={{
+              width: "100%",
+              position: "sticky",
+              top: "86px",
+              zIndex: "0",
+            }}
+          >
             <ReactPlayer
               url={`https://www.youtube.com/watch?v=${id}`}
               className="react-player"
@@ -60,7 +66,11 @@ const VideoDetail = () => {
                 >
                   {channelTitle}
                   <CheckCircle
-                    sx={{ fontSize: "12px", color: "gray", ml: "5px" }}
+                    sx={{
+                      fontSize: "12px",
+                      color: "gray",
+                      ml: { xs: "0px", sm: "5px" },
+                    }}
                   />
                 </Typography>
               </Link>
