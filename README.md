@@ -1,70 +1,158 @@
-# Getting Started with Create React App
+<h1 align="center">Youtube Clone</h1> 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="https://user-images.githubusercontent.com/97459016/232864422-aee1a615-343f-4dd9-bbfa-ea2acd3a6288.png" alt="demopic" width="100%" />
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h2 align="center">A Youtube Clone Web App</h2>    
 
-### `npm test`
+<br />
+<p align="center">
+   <img src="https://img.shields.io/badge/Html5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="html5"/> 
+  <img src="https://img.shields.io/badge/Css3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css3"/> 
+    <img src="https://img.shields.io/badge/React_(18.2.0)-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="reactjs" />
+    <img src="https://img.shields.io/badge/Material_UI-007FFF?style=for-the-badge&logo=mui&logoColor=white" alt="material-ui"/>
+   <img src="https://img.shields.io/badge/Rapid_API-2F2E8B?style=for-the-badge&logo=reactrouter&logoColor=white" alt="Rapid Api"/>
+                                                                
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+     
+    
+  <h3 align="center"><a href="https://youtube-clone-obvc.vercel.app/"><strong>Want to see live preview »</strong></a></h3>
+  
+   
+    
+  <p align="center"> 
+    <br />&#10023;
+    <a href="#Demo">View Demo</a>   &#10023;  
+    <a href="https://github.com/mohit7067/youtube_clone/issues">Report Bug</a>    &#10023;
+    <a href="#Getting-Started">Getting Started</a> &#10023; <a href="#Install">Installing</a> &#10023;    
+    <a href="#Contact">Author</a> &#10023;
+  </p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+<br/>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The project involves creating a responsive YouTube clone using RapidAPI, where users can search, watch, and categorize videos. Utilizing APIs available on RapidAPI, the clone will provide a user-friendly platform that is accessible and optimized for different devices and screen sizes, allowing users to seamlessly access and enjoy videos on various devices, including desktops, laptops, tablets, and mobile phones.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Features
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Search for any specific video or channel.
+- Click a particular tab on the sidebar to get related videos to that.
+- Watch the video and get related videos to that particular video on the same page. 
+- By clicking on the channel profile go to the channel and get videos and subscribers of the channel.
+- The app is responsive and can adjust to every screen size.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br/>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+<br />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Demo
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<br/>
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Getting Started
 
-### `npm run build` fails to minify
+This project was built using  Html, Css, Material UI, React (18.2.0), RapidAPI. It is a web application and for running on your local environment you should follow these guidelines.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Prerequisites
+
+- NPM 
+
+### Setup
+
+
+The project repository can be found in [GitHub link](https://github.com/mohit7067/youtube_clone) or just clone the project using this command. 
+
+
+```
+Using HTTPS
+
+# git clone  https://github.com/mohit7067/youtube_clone.git
+```
+
++ Open terminal on your workspace with
+
+```
+cd /home/workspace/youtube_clone
+```
+
+
+## Install
+
+Install NPM
+
+Check that you have node and npm installed
+
+To check if you have Node.js installed, run this command in your terminal:
+
+
+```
+node -v
+```
+
+To confirm that you have npm installed you can run this command in your terminal:
+
+
+```
+npm -v
+```
+
+
+To install all the dependences of the project, run the following command:
+
+
+```
+npm install
+```
+ or
+                      
+ ```
+npm install --legacy-peer-deps
+```                     
+
+To run the application, run the following command:
+
+```
+npm start
+```
+
+
+### Tools used on this project
+
+- Visual Studio Code
+
+
+<br/>
+
+
+
+## Contact
+
+If you want to contact me, you can reach me through below handles.
+
+[![linkedin](https://img.shields.io/badge/Mohit_Patil-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohit-profile/)
+[![Github](https://img.shields.io/badge/Mohit_Patil-20232A?style=for-the-badge&logo=Github&logoColor=white)](https://github.com/mohit7067/)
+
+© 2023 Mohit Patil
+
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
